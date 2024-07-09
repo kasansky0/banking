@@ -1,13 +1,13 @@
 "use server";
 
 import {
-  ACHClass,
-  CountryCode,
-  TransferAuthorizationCreateRequest,
-  TransferCreateRequest,
-  TransferNetwork,
-  TransferType,
-} from "plaid";
+    ACHClass,
+    CountryCode,
+    TransferAuthorizationCreateRequest,
+    TransferCreateRequest,
+    TransferNetwork,
+    TransferType,
+ } from "plaid";
 
 import { plaidClient } from "../plaid";
 import { parseStringify } from "../utils";
